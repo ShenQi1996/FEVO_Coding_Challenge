@@ -1,3 +1,5 @@
+// I am using JavaScript and node.js to run it.
+
 const mergeAccounts = filename => {
   let accounts = require(filename); // read file name
   let data = {};
