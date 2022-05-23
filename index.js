@@ -27,6 +27,7 @@ const mergeAccounts = filename => {
   let newData = Object.values(data);
 
   console.log(newData);
+  return newData;
 };
 
 const CleanUpDuplicate = arr => {
